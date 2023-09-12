@@ -2,33 +2,71 @@ body{
     background-color: aquamarine;
 }
 
-h1{
+.titulo{
     text-align: center;
     color: blue;
     font-size: 3rem;
     text-decoration: underline;
 }
 
-h2{
+.bandera{
+    width: 600px;
+}
+
+.spaguetti{
+    text-align: center;
     color: red;
     font-size: 2rem;
     text-decoration: underline;
 }
 
-h3{
+.descripcion{
+    font-size: 1.2rem;
+}
+
+.spaghetti-foto{
+    width: 600px;
+}
+
+.receta{
+    text-align: center;
+    color:darkgoldenrod;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.ingredientes{
     color: brown;
     font-size: 1.5rem;
     text-decoration: underline;
 }
 
-p{
-    font-size: 1.2rem;
+.preparacion{
+    color:fuchsia;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
+
 
 li{
     font-size: 1.2rem;
 }
 
-img{
-    width: 600px;
+.control-musica{
+    color:mediumvioletred;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.video-titulo{
+    color:magenta;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.titulo-mapa{
+    text-align: center;
+    color:tomato;
+    font-size: 2rem;
+    text-decoration: underline;
 }
