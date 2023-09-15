@@ -2,22 +2,40 @@ body{
     background-color: aquamarine;
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
 .titulo{
     text-align: center;
+    display: inline;
     color: blue;
     font-size: 3rem;
     text-decoration: underline;
 }
 
 .bandera{
-    width: 600px;
+    width: 150px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .spaguetti{
+    width: 90%;
     text-align: center;
     color: red;
     font-size: 2rem;
     text-decoration: underline;
+}
+
+.seccion-descripcion{
+    width: 100%;
+    text-align: center;
 }
 
 .descripcion{
@@ -29,33 +47,69 @@ body{
 }
 
 .receta{
+    width: 90%;
     text-align: center;
     color:darkgoldenrod;
     font-size: 2rem;
     text-decoration: underline;
 }
 
+.seccion-ingredientes{
+    width: 100%;
+    text-align: center;
+}
+
 .ingredientes{
+    text-align: center;
     color: brown;
     font-size: 1.5rem;
     text-decoration: underline;
 }
 
-.preparacion{
-    color:fuchsia;
-    font-size: 1.5rem;
-    text-decoration: underline;
+.contenedor-lista{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
-
 
 li{
     font-size: 1.2rem;
 }
 
+.seccion-preparacion{
+    width: 100%;
+    text-align: center;
+}
+
+.preparacion{
+    width: 100%;
+    text-align: center;
+    color:fuchsia;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+ol{
+    width: 50%;
+}
+
+.seccion-musica{
+    width: 100%;
+    text-align: center;
+}
+
 .control-musica{
+    width: 100%;
+    text-align: center;
     color:mediumvioletred;
     font-size: 1.5rem;
     text-decoration: underline;
+}
+
+.seccion-video{
+    width: 100%;
+    text-align: center;
 }
 
 .video-titulo{
@@ -64,9 +118,30 @@ li{
     text-decoration: underline;
 }
 
+.seccion-otras-recetas{
+    width: 100%;
+    text-align: center;
+}
+
+.seccion-mapa{
+    width: 100%;
+    text-align: center;
+}
+
 .titulo-mapa{
     text-align: center;
     color:tomato;
     font-size: 2rem;
     text-decoration: underline;
+}
+
+.whatsapp-section {
+    position: fixed;
+    width: 35px;
+    bottom: 30px;
+    right: 5px;
+}
+
+.whatsapp-logo {
+    width: 100%;
 }
