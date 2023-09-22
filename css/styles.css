@@ -1,18 +1,49 @@
 body{
     background-color: aquamarine;
+    margin: 0;
 }
 
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    background-color: green;
 }
+
+.menu{
+    margin-top: 1em;
+    width: 100%;
+    background-color: black;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre los elementos, ajusta según tu preferencia */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white; /* Cambia el color de texto según tus preferencias */
+  }
+
+  .menu a:hover{
+    background-color: white;
+    color: green;
+  }
+  
 
 .titulo{
     text-align: center;
     display: inline;
-    color: blue;
+    color: white;
     font-size: 3rem;
-    text-decoration: underline;
 }
 
 .bandera{
