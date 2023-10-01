@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+
 body{
     background-color: aquamarine;
     margin: 0;
+    font-family: 'Lunasima', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 header{
@@ -12,7 +33,7 @@ header{
 
 .redes-sociales{
     display: flex;
-    width: 150px;
+    width: 15%;
     align-items: center;
     justify-content: space-between;
 }
@@ -35,6 +56,7 @@ header{
 
 .menu ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-evenly;
     padding: 0;
@@ -64,7 +86,8 @@ header{
 }
 
 .bandera{
-    width: 150px;
+    min-width: 150px;
+    width: 15%;
 }
 
 main{
@@ -74,7 +97,7 @@ main{
 }
 
 .spaguetti{
-    width: 90%;
+    width: 80%;
     text-align: center;
     color: red;
     font-size: 2rem;
@@ -82,8 +105,11 @@ main{
 }
 
 .seccion-descripcion{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .descripcion{
@@ -91,20 +117,28 @@ main{
 }
 
 .spaghetti-foto{
-    width: 600px;
+    min-width: 150px;
+    max-width: 600px;
+    width: 60%;
 }
 
 .receta{
-    width: 90%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
     color:darkgoldenrod;
     font-size: 2rem;
     text-decoration: underline;
 }
 
 .seccion-ingredientes{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .ingredientes{
@@ -126,8 +160,11 @@ li{
 }
 
 .seccion-preparacion{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .preparacion{
@@ -139,12 +176,15 @@ li{
 }
 
 ol{
-    width: 50%;
+    width: 100%;
 }
 
 .seccion-musica{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .control-musica{
@@ -156,8 +196,11 @@ ol{
 }
 
 .seccion-video{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .video-titulo{
@@ -167,13 +210,19 @@ ol{
 }
 
 .seccion-otras-recetas{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .seccion-mapa{
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
     text-align: center;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 
 .titulo-mapa{
@@ -203,12 +252,51 @@ footer{
 }
 
 .footer-mapa{
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .autor{
     color: white;
 }
 
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacto-titulo{
+    text-align: center;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 1em;
+}
+
+#nombre{
+    width: 150px;
+}
+
+#apellido{
+    width: 150px;
+}
+
+#asunto{
+    width: 150px;
+}
+
+#email{
+    width: 150px;
+}
+
+#mensaje{
+    width: 150px;
+}
 
