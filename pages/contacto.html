@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
+    <!-- Meta etiquetas -->
     <meta charset="UTF-8" />
+    <meta name="description" content="Formulario de Contacto"> <!-- Descripción para SEO -->
+    <meta name="keywords" content="Formulario, Contacto"> <!-- Palabras clave para SEO -->
+    <meta name="author" content="Matias Peña"> <!-- Autor del sitio -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
+    <title>Contacto</title> <!-- Título de la página -->
+    <!-- Enlaces a estilos y fuentes -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -11,16 +16,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
+      <!-- Logo y título -->
       <img
         class="bandera"
-        src="./imagenes/italia.jpg"
+        src="../imagenes/italia.jpg"
         alt="Bandera de Italia"
       />
-      <h1 class="titulo">Comida tipica de Italia</h1>
+      <h1 class="titulo">Comida típica de Italia</h1>
+      <!-- Enlaces a redes sociales -->
       <nav class="redes-sociales">
         <ul class="redes-sociales-lista">
           <li>
@@ -45,10 +52,11 @@
           </li>
         </ul>
       </nav>
+      <!-- Menú de navegación -->
       <nav class="menu">
         <ul>
           <li>
-            <a href="./index.html"
+            <a href="../index.html"
               ><i
                 class="fa-sharp fa-solid fa-arrow-left"
                 style="color: #ffffff"
@@ -88,9 +96,12 @@
       </nav>
     </header>
     <main>
+      <!-- Sección de formulario de contacto -->
       <section class="contacto">
         <h2 class="contacto-titulo">Contacto</h2>
+        <!-- Formulario -->
         <form action="">
+          <!-- Campos del formulario -->
           <div class="form-nombre">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" required />
@@ -111,6 +122,7 @@
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="30" rows="10" required></textarea>
           </div>
+          <!-- Botones de enviar y borrar -->
           <div class="form-enviar">
             <input type="submit" value="Enviar" />
             <input type="reset" value="Borrar" />
@@ -119,6 +131,7 @@
       </section>
     </main>
     <footer>
+      <!-- Mapa en el pie de página -->
       <section class="seccion-mapa-footer">
         <iframe
           class="footer-mapa"
@@ -131,6 +144,7 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
+      <!-- Enlaces a redes sociales y créditos -->
       <nav class="redes-sociales">
         <ul class="redes-sociales-lista">
           <li>
@@ -155,6 +169,7 @@
           </li>
         </ul>
       </nav>
+      <!-- Información de derechos de autor -->
       <p class="autor">
         Peña Matias - Copyright © 2023 - Todos los derechos reservados
       </p>

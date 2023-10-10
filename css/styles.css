@@ -1,29 +1,36 @@
+/* Importación de fuente desde Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lunasima&display=swap");
 
+/* Estilos generales del cuerpo de la página */
 body {
   background-color: aquamarine;
   margin: 0;
-  font-family: "Lunasima", sans-serif;
+  font-family: "Lunasima", sans-serif; /* Uso de la fuente importada */
 }
 
+/* Estilos para enlaces */
 a {
   text-decoration: none;
 }
 
+/* Estilos para enlaces activos */
 a:active {
   color: green;
 }
 
+/* Estilos para enlaces visitados */
 a:visited {
   color: white;
 }
 
+/* Estilos para enlaces al pasar el ratón por encima */
 a:hover {
   color: green;
   text-decoration: none;
   font-weight: bold;
 }
 
+/* Estilos para el encabezado */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +38,7 @@ header {
   background-color: green;
 }
 
+/* Estilos para la sección de redes sociales en el encabezado */
 .redes-sociales {
   display: flex;
   width: 15%;
@@ -39,6 +47,7 @@ header {
   justify-content: space-between;
 }
 
+/* Estilos para la lista de redes sociales en el encabezado */
 .redes-sociales-lista {
   display: flex;
   width: 100%;
@@ -49,12 +58,14 @@ header {
   background-color: black;
 }
 
+/* Estilos para el menú de navegación */
 .menu {
   margin-top: 1em;
   width: 100%;
   background-color: black;
 }
 
+/* Estilos para la lista dentro del menú de navegación */
 .menu ul {
   display: flex;
   flex-wrap: wrap;
@@ -63,21 +74,25 @@ header {
   padding: 0;
 }
 
+/* Estilos para los elementos de la lista en el menú de navegación */
 .menu li {
   display: inline-block;
-  margin-right: 10px; /* Espacio entre los elementos, ajusta según tu preferencia */
+  margin-right: 10px; /* Espacio entre los elementos */
 }
 
+/* Estilos para los enlaces dentro del menú de navegación */
 .menu a {
   text-decoration: none;
-  color: white; /* Cambia el color de texto según tus preferencias */
+  color: white;
 }
 
+/* Estilos para los enlaces al pasar el ratón por encima en el menú de navegación */
 .menu a:hover {
   background-color: white;
   color: green;
 }
 
+/* Estilos para el título */
 .titulo {
   text-align: center;
   display: inline;
@@ -85,17 +100,20 @@ header {
   font-size: 3rem;
 }
 
+/* Estilos para la bandera */
 .bandera {
   min-width: 150px;
   width: 15%;
 }
 
+/* Estilos para la sección principal */
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+/* Estilos para el texto de spaguetti */
 .spaguetti {
   width: 80%;
   text-align: center;
@@ -104,6 +122,7 @@ main {
   text-decoration: underline;
 }
 
+/* Estilos para la sección de descripción */
 .seccion-descripcion {
   width: 80%;
   display: flex;
@@ -112,16 +131,19 @@ main {
   justify-content: center;
 }
 
+/* Estilos para la descripción */
 .descripcion {
   font-size: 1.2rem;
 }
 
+/* Estilos para la imagen de spaguetti */
 .spaghetti-foto {
   min-width: 150px;
   max-width: 600px;
   width: 60%;
 }
 
+/* Estilos para la sección de receta */
 .receta {
   width: 80%;
   display: flex;
@@ -133,6 +155,7 @@ main {
   text-decoration: underline;
 }
 
+/* Estilos para la sección de ingredientes */
 .seccion-ingredientes {
   width: 80%;
   display: flex;
@@ -141,6 +164,7 @@ main {
   justify-content: center;
 }
 
+/* Estilos para la lista de ingredientes */
 .ingredientes {
   text-align: center;
   color: brown;
@@ -148,6 +172,7 @@ main {
   text-decoration: underline;
 }
 
+/* Estilos para el contenedor de la lista */
 .contenedor-lista {
   display: flex;
   width: 100%;
@@ -155,10 +180,12 @@ main {
   justify-content: center;
 }
 
+/* Estilos para los elementos de la lista */
 li {
   font-size: 1.2rem;
 }
 
+/* Estilos para la sección de preparación */
 .seccion-preparacion {
   width: 80%;
   display: flex;
@@ -167,6 +194,8 @@ li {
   justify-content: center;
 }
 
+
+/* Estilos para la sección de preparación */
 .preparacion {
   width: 100%;
   text-align: center;
@@ -175,10 +204,12 @@ li {
   text-decoration: underline;
 }
 
+/* Estilos para listas ordenadas */
 ol {
   width: 100%;
 }
 
+/* Estilos para la sección de música */
 .seccion-musica {
   width: 80%;
   display: flex;
@@ -187,6 +218,7 @@ ol {
   justify-content: center;
 }
 
+/* Estilos para el control de música */
 .control-musica {
   width: 100%;
   text-align: center;
@@ -195,6 +227,7 @@ ol {
   text-decoration: underline;
 }
 
+/* Estilos para la sección de video */
 .seccion-video {
   width: 80%;
   display: flex;
@@ -203,6 +236,7 @@ ol {
   justify-content: center;
 }
 
+/* Estilos para el título del video */
 .video-titulo {
   width: 100%;
   color: magenta;
@@ -210,6 +244,12 @@ ol {
   text-decoration: underline;
 }
 
+/* Estilos para el video */
+.video{
+  width: 100%;
+}
+
+/* Estilos para la sección de otras recetas */
 .seccion-otras-recetas {
   width: 80%;
   display: flex;
@@ -217,6 +257,7 @@ ol {
   text-align: center;
 }
 
+/* Estilos para la sección de mapa */
 .seccion-mapa {
   display: flex;
   flex-wrap: wrap;
@@ -226,6 +267,7 @@ ol {
   margin-bottom: 1em;
 }
 
+/* Estilos para el título del mapa */
 .titulo-mapa {
   width: 100%;
   text-align: center;
@@ -234,10 +276,12 @@ ol {
   text-decoration: underline;
 }
 
+/* Estilos para el mapa */
 .mapa {
   width: 100%;
 }
 
+/* Estilos para la sección de WhatsApp */
 .whatsapp-section {
   position: fixed;
   width: 35px;
@@ -245,18 +289,21 @@ ol {
   right: 5px;
 }
 
+/* Estilos para el logo de WhatsApp */
 .whatsapp-logo {
   width: 100%;
 }
 
+/* Estilos para el pie de página */
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: black;
 }
 
+/* Estilos para el mapa en el pie de página */
 .footer-mapa {
   width: 100%;
   min-width: 150px;
@@ -264,10 +311,12 @@ footer {
   max-height: 200px;
 }
 
+/* Estilos para el autor en el pie de página */
 .autor {
   color: white;
 }
 
+/* Estilos para la sección de contacto */
 .contacto {
   display: flex;
   flex-wrap: wrap;
@@ -277,11 +326,13 @@ footer {
   margin-bottom: 1em;
 }
 
+/* Estilos para el título de la sección de contacto */
 .contacto-titulo {
   text-align: center;
   width: 100%;
 }
 
+/* Estilos para el formulario de contacto */
 form {
     display: flex;
     width: 80%;
@@ -290,26 +341,101 @@ form {
     margin-bottom: 1em;
   }
   
-  .form-nombre,
-  .form-apellido,
-  .form-asunto,
-  .form-email,
-  .form-mensaje,
-  .form-enviar {
+/* Estilos para los campos del formulario de contacto */
+.form-nombre,
+.form-apellido,
+.form-asunto,
+.form-email,
+.form-mensaje,
+.form-enviar {
     display: flex;
     width: 100%; 
     margin-bottom: 1em;
     justify-content: space-evenly;
   }
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
+input[type="text"],
+input[type="email"],
+textarea {
     width: 80%; 
     padding: 0.5em; 
   }
   
-  input[type="submit"],
-  input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
     width: 48%; 
   }
+
+/* Media queries para ajustes de diseño en dispositivos móviles */
+@media (max-width: 575px) {
+  .bandera{
+    display: none;
+  }
+  .seccion-video{
+    display: none;
+  }
+  .footer-mapa{
+    display: none;
+  }
+}
+
+@media (min-width: 575px) and (max-width:992px){
+  body{
+    background-color: grey;
+    color: #fff;
+    font-size: 1em;
+  }
+
+  .bandera{
+    display: block;
+  }
+
+  .receta, .control-musica, .titulo-mapa{
+    color: blue;
+  }
+
+  .seccion-video{
+    display: block;
+  }
+
+  footer{
+    justify-content: space-evenly;
+  }
+
+  .footer-mapa{
+    display: block;
+  }
+}
+
+@media(min-width:993px){
+  body{
+    background-color: green;
+    color: #fff;
+    font-size: 1em;
+  }
+
+  .ingredientes{
+    color: red;
+  }
+
+  .seccion-video{
+    width: 40%;
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
+
+  .seccion-mapa{
+    width: 40%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+
+  .titulo-mapa{
+    width: 100%;
+  }
+
+  footer{
+    justify-content: space-evenly;
+  }
+}
+
