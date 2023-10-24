@@ -15,6 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comida Típica de Italia</title>
     <!-- Título de la página -->
+    <script>
+      alert("Bienvenido a la página web Comida Tipica de Italia");
+    </script>
     <!-- Enlaces a estilos y fuentes -->
     <link
       rel="stylesheet"
@@ -45,7 +48,7 @@
         <ul class="redes-sociales-lista">
           <li>
             <a href="https://wa.me/+5492916446200"
-              ><i class="fa-brands fa-whatsapp" style="color: #3de010"></i
+              ><i class="fa-brands fa-whatsapp"></i
             ></a>
           </li>
           <li>
@@ -55,16 +58,24 @@
           </li>
           <li>
             <a href="https://www.instagram.com/"
-              ><i class="fa-brands fa-instagram" style="color: #cb1ab4"></i
+              ><i class="fa-brands fa-instagram"></i
             ></a>
           </li>
           <li>
             <a href="https://www.youtube.com/"
-              ><i class="fa-brands fa-youtube" style="color: #ff0000"></i
+              ><i class="fa-brands fa-youtube"></i
             ></a>
           </li>
         </ul>
       </nav>
+      <div class="modo">
+        <button class="modo-light" onclick="modoLight()">
+          <i class="fa-regular fa-sun"> light</i>
+        </button>
+        <button class="modo-dark" onclick="modoDark()">
+          <i class="fa-regular fa-moon"> dark</i>
+        </button>
+      </div>
       <!-- Menú de navegación -->
       <nav class="menu">
         <ul>
@@ -371,7 +382,7 @@
         <ul class="redes-sociales-lista">
           <li>
             <a href="https://wa.me/+5492916446200"
-              ><i class="fa-brands fa-whatsapp" style="color: #3de010"></i
+              ><i class="fa-brands fa-whatsapp"></i
             ></a>
           </li>
           <li>
@@ -381,18 +392,19 @@
           </li>
           <li>
             <a href="https://www.instagram.com/"
-              ><i class="fa-brands fa-instagram" style="color: #cb1ab4"></i
+              ><i class="fa-brands fa-instagram"></i
             ></a>
           </li>
           <li>
             <a href="https://www.youtube.com/"
-              ><i class="fa-brands fa-youtube" style="color: #ff0000"></i
+              ><i class="fa-brands fa-youtube"></i
             ></a>
           </li>
         </ul>
       </nav>
-      <p class="autor">Peña Matias - Copyright © 2023</p>
+      <button onclick="copyRight()" class="copyRight">©CopyRight</button>
       <!-- Añadido el año -->
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
